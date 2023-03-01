@@ -92,8 +92,9 @@
             <section id="c92-main-content">
                 <!--Start #c92-call-to-action-->
                 <section id="c92-call-to-action" class="d-flex justify-content-between">
+                    <!--Start row left-->
                     <div class="row">
-                        <div class="col-12 debug">
+                        <div class="col-12">
                             <div class="px-2 pt-3">
                                 <h1 class="text-white d-inline-block">Boolean</h1>
                                 <span class="badge c92-btn-call-to-action text-white fw-semibold">Piano blaze</span>
@@ -103,15 +104,15 @@
                                 <i class="fa-solid fa-angles-right text-white"></i>
                                 <span class="badge c92-btn-call-to-action text-white fw-semibold">Boolean mobile app</span>
                                 <span class="badge c92-btn-call-to-action text-white fw-semibold">Boolean web app</span>
-                                <span class="badge c92-btn-call-to-action text-white fw-semibold">Boolean blog app</span>
-                                
+                                <span class="badge c92-btn-call-to-action text-white fw-semibold">Boolean blog app</span>    
                             </div>
-                            
-                            
                         </div>
                     </div>
+                    <!--/row left-->
+
+                    <!-- Start row mid-->
                     <div class="row">
-                        <div class="col-12 debug">
+                        <div class="col-12">
                             <div class="px-5 py-3">
                                 <p class="text-white fw-semibold">
                                     Studenti online negli ultimi 30 giorni
@@ -123,8 +124,11 @@
                             
                         </div>
                     </div>
+                    <!--/row mid-->
+
+                    <!--start row right-->
                     <div class="row">
-                        <div class="col-12 debug">
+                        <div class="col-12">
                             <div class="px-5 py-3">
                                 <span class="text-white fw-semibold text-capitalize px-2">Nuovo studente</span>
 
@@ -144,18 +148,20 @@
                                     <div class="offcanvas-body fw-semibold">
                                         <form class="row g-3">
                                             <div class="col-md-6">
-                                                <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                                                <label class="form-label" for="autoSizingInputGroup">Nome</label>
+                                                <input type="text" class="form-control" aria-label="First name">
                                             </div>
 
                                             <div class="col-md-6">
-                                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                                                <label class="form-label" for="autoSizingInputGroup">Cognome</label>
+                                                <input type="text" class="form-control" aria-label="Last name">
                                             </div>
 
                                             <div class="col-md-6">
                                                 <label class="form-label" for="autoSizingInputGroup">Email</label>
                                                 <div class="input-group">
-                                                  <div class="input-group-text">@</div>
-                                                  <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Username">
+                                                  <div class="input-group-text fw-semibold">@</div>
+                                                  <input type="text" class="form-control" id="autoSizingInputGroup">
                                                 </div>
                                             </div>
 
@@ -165,15 +171,15 @@
                                             </div>
 
                                             <div class="col-md-6">
-                                                <label class="form-label text-capitalize" for="autoSizingInputGroup">Indirizzo email</label>
+                                                <label class="form-label text-capitalize" for="autoSizingInputGroup">Conferma email</label>
                                                 <div class="input-group">
-                                                  <div class="input-group-text">@</div>
-                                                  <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Username">
+                                                  <div class="input-group-text fw-semibold">@</div>
+                                                  <input type="text" class="form-control" id="autoSizingInputGroup">
                                                 </div>
                                             </div>
 
                                             <div class="col-md-6">
-                                                <label for="inputPassword4" class="form-label">Password</label>
+                                                <label for="inputPassword4" class="form-label text-capitalize">Conferma password</label>
                                                 <input type="password" class="form-control" id="inputPassword4">
                                             </div>
 
@@ -190,7 +196,7 @@
                                             <div class="col-md-4">
                                                 <label for="inputState" class="form-label">Stato</label>
                                                 <select id="inputState" class="form-select">
-                                                    <option selected>Select...</option>
+                                                    <option selected>Scegli...</option>
                                                     <option>Italia</option>
                                                     <option>Francia</option>
                                                     <option>Stati uniti</option>
@@ -204,10 +210,15 @@
                                             </div>
 
                                             <div class="col-12">
+                                                <label for="formFile" class="form-label">Foto</label>
+                                                <input class="form-control fw-semibold" type="file" id="formFile">
+                                            </div>
+
+                                            <div class="col-12">
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" id="gridCheck">
                                                     <label class="form-check-label" for="gridCheck">
-                                                    Check me out
+                                                    Seleziona per proseguire
                                                     </label>
                                                 </div>
                                             </div>
@@ -225,6 +236,7 @@
                             </div>
                         </div>
                     </div>
+                    <!--/row right-->
                 </section>
                 <!--/#c92-call-to-action-->
 
