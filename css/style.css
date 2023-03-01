@@ -48,6 +48,7 @@ main{
 /*c92 class header*/
 .c92-logo-mob{
     width: 180px;
+    display: none;
 }
 .c92-logo-mob img{
     width: 50px;
@@ -85,5 +86,19 @@ main{
 .c92-btn-accordion{
     color: black !important;
 }
-
 /*/c92 #c92-box-stats*/
+
+/*c92 @media*/
+@media screen and (max-width: 1160px){
+    #c92-logo{
+        display: none;
+    }
+    .c92-logo-mob{
+        display: block;
+    }
+    .c92-d-none-icon{
+        display: none;
+    }
+}
+
+/*/c92 @media*/

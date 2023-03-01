@@ -14,30 +14,48 @@
     <div class="c92-wrapper">
         <header class="d-flex align-items-center">
             <!--Start navbar-->
-            <nav class="nav">
-                <img src="./img/logo.svg" alt="logo">
-                <div class="c92-logo-mob">
-                    <img src="./img/mobile-logo.png" alt="logo">
+            <nav class="p-2">
+                <div class="row align-items-center">
+                    <div class="col-2">
+                        <a href="#">
+                            <div id="c92-logo" class="p-2">
+                                <img src="./img/logo.svg" alt="">
+                            </div>
+                            <div class="c92-logo-mob">
+                                <img src="./img/mobile-logo.png" alt="logo">
+                            </div>
+                        </a>   
+                    </div>
+                    <div class="col-8">
+                        <input class="form-control" id="exampleDataList" placeholder="&#xf002; Type to search..." style="font-family:Arial, FontAwesome">
+                        
+                    </div>
+                    <div class="col-2">
+                        <ul class="nav c92-nav-link d-flex justify-content-end">
+                            <li class="nav-item c92-d-none-icon">
+                              <a class="nav-link text-dark" aria-current="page" href="#">
+                                <i class="fa-solid fa-list"></i>
+                              </a>
+                            </li>
+                            <li class="nav-item c92-d-none-icon">
+                              <a class="nav-link text-dark" href="#">
+                                <i class="fa-solid fa-question"></i>
+                              </a>
+                            </li>
+                            <li class="nav-item c92-d-none-icon">
+                              <a class="nav-link text-dark" href="#">
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-warning" href="#">
+                                <i class="fa-solid fa-bell"></i>
+                              </a>
+                            </li>
+                          </ul>
+                    </div>
                 </div>
-                <div class="c92-bar-search">
-                    <input type="text">
-                </div>
-                
-                <ul class="nav c92-nav-link ms-auto">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Active</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link ">Disabled</a>
-                    </li>
-                  </ul>
-            </nav>
+                </nav>
             <!--/navbar-->
         </header>
 
