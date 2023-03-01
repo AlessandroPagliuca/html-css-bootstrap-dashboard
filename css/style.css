@@ -1,0 +1,64 @@
+/*GENERAL*/
+:root{
+    --c92-bg-header:#ffffff;
+    --c92-bg-call-to-action:#1b72e8;
+    --c92-bg-main-content:#f8f9fa;
+    --c92-bg-sidebar:#051e34;
+}
+
+.debug{
+    border: 1px solid red;
+
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    
+}
+/*/GENERAL*/
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: var(--c92-bg-header);
+}
+nav{
+    width: 100%;
+}
+main{
+    padding-top: 70px;
+    height: 100%;
+    
+}
+#sidebar{
+    width: 180px;
+    height: 100%;
+    background-color: var(--c92-bg-sidebar);
+    background-image: url(../img/sidebar-bg.png);
+}
+.main-content{
+    width: calc(100% - 180px);
+    height: 100%;
+    overflow-y: auto;
+    background-color: var(--c92-bg-main-content);
+}
+/*c92 class header*/
+.c92-logo-mob{
+    width: 180px;
+}
+.c92-logo-mob img{
+    width: 50px;
+}
+
+.c92-bar-search{
+    width: calc(100% - ...);
+}
+/*/c92 class header*/
+
+/*c92 class sidebar*/
+
+.c92-topnav a{
+    text-decoration: none;
+}
+/*/c92 class sidebar*/
