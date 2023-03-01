@@ -37,7 +37,7 @@ main{
     background-color: var(--c92-bg-sidebar);
     background-image: url(../img/sidebar-bg.png);
 }
-.main-content{
+#main-content{
     width: calc(100% - 180px);
     height: 100%;
     overflow-y: auto;
@@ -51,14 +51,22 @@ main{
     width: 50px;
 }
 
-.c92-bar-search{
+/*.c92-bar-search{
     width: calc(100% - ...);
-}
+}*/
+
 /*/c92 class header*/
 
 /*c92 class sidebar*/
 
-.c92-topnav a{
+.c92-nav a{
     text-decoration: none;
 }
 /*/c92 class sidebar*/
+
+/*c92 #call-to-action*/
+#call-to-action{
+    width: 100%;
+    background-color: #1b72e8;
+}
+/*/c92 #call-to-action*/
