@@ -65,6 +65,10 @@ main{
 .c92-nav a{
     text-decoration: none;
 }
+.c92-nav:hover a{
+    background-color: grey;
+
+}
 /*/c92 class sidebar*/
 
 /*c92 #call-to-action*/
