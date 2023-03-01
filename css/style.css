@@ -40,6 +40,7 @@ main{
 #main-content{
     width: calc(100% - 180px);
     height: 100%;
+    overflow-x: hidden;
     overflow-y: auto;
     background-color: var(--c92-bg-main-content);
 }
@@ -66,7 +67,6 @@ main{
 
 /*c92 #call-to-action*/
 #call-to-action{
-    width: 100%;
     background-color: #1b72e8;
 }
 /*/c92 #call-to-action*/
