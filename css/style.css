@@ -4,6 +4,7 @@
     --c92-bg-call-to-action:#1b72e8;
     --c92-bg-main-content:#f8f9fa;
     --c92-bg-sidebar:#051e34;
+    --c92-bg-btn-call-to-action:#165bba;
 }
 
 .debug{
@@ -68,6 +69,9 @@ main{
 /*c92 #call-to-action*/
 #c92-call-to-action{
     background-color: #1b72e8;
+}
+.c92-btn-call-to-action{
+    background-color: var(--c92-bg-btn-call-to-action);
 }
 /*/c92 #call-to-action*/
 
