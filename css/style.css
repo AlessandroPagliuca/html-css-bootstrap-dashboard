@@ -46,10 +46,6 @@ main{
     background-color: var(--c92-bg-main-content);
 }
 /*c92 class header*/
-.c92-logo-mob{
-    width: 180px;
-    display: none;
-}
 .c92-logo-mob img{
     width: 50px;
 }
@@ -92,17 +88,20 @@ main{
 }
 /*/c92 #c92-box-stats*/
 
-/*c92 @media*/
-@media screen and (max-width: 1160px){
-    #c92-logo{
+/*
+@media screen and (max-width: 768px){
+    #c92-sidebar {
+        width: 90px;
+    }
+    #c92-sidebar span{
         display: none;
     }
-    .c92-logo-mob{
-        display: block;
+    #c92-sidebar .row >*{
+        padding-left: 0px !important;
     }
-    .c92-d-none-icon{
-        display: none;
+    #c92-main-content{
+        width: calc(100% - 90px);
     }
 }
 
-/*/c92 @media*/
+*/
