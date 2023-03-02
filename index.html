@@ -18,7 +18,7 @@
                 <div class="row align-items-center">
                     <div class="col-auto">
                         <a href="#">
-                            <div id="c92-logo" class="p-2 d-none d-lg-block">
+                            <div id="c92-logo" class="d-none d-lg-block">
                                 <img src="./img/logo.svg" alt="">
                             </div>
                             <div class="c92-logo-mob d-block d-lg-none">
@@ -62,42 +62,42 @@
         <main class="d-flex">
             <!--Start #c92-sidebar-->
             <nav id="c92-sidebar" class="d-flex flex-column justify-content-between">
-                <section id="c92-nav-top" class="px-5 py-3">
+                <section id="c92-nav-top" class="px-4 py-2">
                     <div class="row">
-                        <div class="col-12">
-                            <div class="c92-nav py-2">
+                        <div class="col-12 c92-nav">
+                            <div class="py-2">
                                 <a href="#" class="text-white">
                                     <i class="fa-solid fa-house"></i>
-                                    <span>Home</span>
+                                    <span class="d-none d-md-inline-block">Home</span>
                                 </a>
                             </div>   
                         </div>
-                        <div class="col-12">
-                            <div class="c92-nav py-2">
+                        <div class="col-12 c92-nav">
+                            <div class="py-2">
                                 <a href="#" class="text-white">
                                     <i class="fa-solid fa-chart-simple"></i>
-                                    <span>Stats</span>
+                                    <span class="d-none d-md-inline-block">Stats</span>
                                 </a>
                             </div>   
                         </div>
-                        <div class="col-12">
-                            <div class="c92-nav py-2">
+                        <div class="col-12 c92-nav">
+                            <div class="py-2">
                                 <a href="#" class="text-white">
                                     <i class="fa-solid fa-signal"></i>
-                                    <span>Signals</span>
+                                    <span class="d-none d-md-inline-block">Signals</span>
                                 </a>
                             </div>   
                         </div>
                     </div>
                 </section>
                 
-                <section id="c92-nav-bot" class="px-5 py-3">
+                <section id="c92-nav-bot" class="px-4 py-2">
                     <div class="row">
-                        <div class="col-12">
-                            <div class="c92-nav py-2">
+                        <div class="col-12 c92-nav">
+                            <div class="py-2">
                                 <a href="#" class="text-white">
                                     <i class="fa-solid fa-gear text-white"></i>
-                                    <span class="text-white">Admin</span>
+                                    <span class="text-white d-none d-md-inline-block">Admin</span>
                                 </a>
                             </div>   
                         </div>
@@ -109,20 +109,21 @@
             <!--Start #c92-main-content-->
             <section id="c92-main-content">
                 <!--Start #c92-call-to-action-->
-                <section id="c92-call-to-action" class="d-flex justify-content-between">
+                <section id="c92-call-to-action" class="d-flex flex-column-reverse flex-sm-row justify-content-sm-between">
                     <!--Start row left-->
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col">
                             <div class="px-2 pt-3">
                                 <h1 class="text-white d-inline-block">Boolean</h1>
-                                <span class="badge c92-btn-call-to-action text-white fw-semibold">Piano blaze</span>
+                                <span class="badge rounded-pill c92-btn-call-to-action text-white fw-semibold">Piano blaze</span>
                             </div>
                             <div class="px-2 pb-3">
-                                <span class="badge c92-btn-call-to-action text-white fw-semibold">3 app</span>
+                                <span class="badge rounded-pill c92-btn-call-to-action text-white fw-semibold">3 app</span>
                                 <i class="fa-solid fa-angles-right text-white"></i>
-                                <span class="badge c92-btn-call-to-action text-white fw-semibold">Boolean mobile app</span>
-                                <span class="badge c92-btn-call-to-action text-white fw-semibold">Boolean web app</span>
-                                <span class="badge c92-btn-call-to-action text-white fw-semibold">Boolean blog app</span>    
+                                <span class="badge rounded-pill c92-btn-call-to-action text-white fw-semibold d-lg-none">+</span>
+                                <span class="badge rounded-pill c92-btn-call-to-action text-white fw-semibold d-none d-lg-inline-block">Boolean mobile app</span>
+                                <span class="badge rounded-pill c92-btn-call-to-action text-white fw-semibold d-none d-lg-inline-block">Boolean web app</span>
+                                <span class="badge rounded-pill c92-btn-call-to-action text-white fw-semibold d-none d-lg-inline-block">Boolean blog app</span>    
                             </div>
                         </div>
                     </div>
@@ -130,8 +131,8 @@
 
                     <!-- Start row mid-->
                     <div class="row">
-                        <div class="col-12">
-                            <div class="px-5 py-3">
+                        <div class="col">
+                            <div class="px-2 py-3">
                                 <p class="text-white fw-semibold">
                                     Studenti online negli ultimi 30 giorni
                                 </p>
@@ -146,8 +147,8 @@
 
                     <!--start row right-->
                     <div class="row">
-                        <div class="col-12">
-                            <div class="px-5 py-3">
+                        <div class="col">
+                            <div class="pe-2 py-3">
                                 <span class="text-white fw-semibold text-capitalize px-2">Nuovo studente</span>
 
                                 <!--Start btn offcanvas-->
@@ -155,7 +156,7 @@
                                 <!--/btn offcanvas-->
 
                                 <!--Start offcanvas-->
-                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas offcanvas-end w-100 c92-offcanvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                     <div class="offcanvas-header">
                                         <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo utente</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -165,17 +166,17 @@
                                     <!--Start offcanvas-body-->
                                     <div class="offcanvas-body fw-semibold">
                                         <form class="row g-3">
-                                            <div class="col-md-6">
+                                            <div class="col-12 col-md-6">
                                                 <label class="form-label" for="autoSizingInputGroup">Nome</label>
                                                 <input type="text" class="form-control" aria-label="First name">
                                             </div>
 
-                                            <div class="col-md-6">
+                                            <div class="col-12 col-md-6">
                                                 <label class="form-label" for="autoSizingInputGroup">Cognome</label>
                                                 <input type="text" class="form-control" aria-label="Last name">
                                             </div>
 
-                                            <div class="col-md-6">
+                                            <div class="col-12 col-md-6">
                                                 <label class="form-label" for="autoSizingInputGroup">Email</label>
                                                 <div class="input-group">
                                                   <div class="input-group-text fw-semibold">@</div>
@@ -183,12 +184,12 @@
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-6">
+                                            <div class="col-12 col-md-6">
                                                 <label for="inputPassword4" class="form-label">Password</label>
                                                 <input type="password" class="form-control" id="inputPassword4">
                                             </div>
 
-                                            <div class="col-md-6">
+                                            <div class="col-12 col-md-6">
                                                 <label class="form-label text-capitalize" for="autoSizingInputGroup">Conferma email</label>
                                                 <div class="input-group">
                                                   <div class="input-group-text fw-semibold">@</div>
@@ -196,7 +197,7 @@
                                                 </div>
                                             </div>
 
-                                            <div class="col-md-6">
+                                            <div class="col-12 col-md-6">
                                                 <label for="inputPassword4" class="form-label text-capitalize">Conferma password</label>
                                                 <input type="password" class="form-control" id="inputPassword4">
                                             </div>
@@ -206,12 +207,12 @@
                                                 <input type="text" class="form-control" id="inputAddress">
                                             </div>
 
-                                            <div class="col-md-6">
+                                            <div class="col-12 col-md-6">
                                                 <label for="inputCity" class="form-label">Città</label>
                                                 <input type="text" class="form-control" id="inputCity">
                                             </div>
 
-                                            <div class="col-md-4">
+                                            <div class="col-12 col-md-4">
                                                 <label for="inputState" class="form-label">Stato</label>
                                                 <select id="inputState" class="form-select">
                                                     <option selected>Scegli...</option>
@@ -222,7 +223,7 @@
                                                 </select>
                                             </div>
 
-                                            <div class="col-md-2">
+                                            <div class="col-12 col-md-2">
                                                 <label for="inputZip" class="form-label text-uppercase">Cap</label>
                                                 <input type="text" class="form-control" id="inputZip">
                                             </div>

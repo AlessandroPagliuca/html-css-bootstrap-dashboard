@@ -5,6 +5,7 @@
     --c92-bg-main-content:#f8f9fa;
     --c92-bg-sidebar:#051e34;
     --c92-bg-btn-call-to-action:#165bba;
+    --c92-bg-link-grey:#a6a6a6;
 }
 
 .debug{
@@ -33,13 +34,13 @@ main{
     
 }
 #c92-sidebar{
-    width: 180px;
+    width: 70px;
     height: 100%;
     background-color: var(--c92-bg-sidebar);
     background-image: url(../img/sidebar-bg.png);
 }
 #c92-main-content{
-    width: calc(100% - 180px);
+    width: calc(100% - 70px);
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
@@ -61,8 +62,8 @@ main{
 .c92-nav a{
     text-decoration: none;
 }
-.c92-nav:hover a{
-    background-color: grey;
+.c92-nav:hover{
+    background-color: var(--c92-bg-link-grey)
 
 }
 /*/c92 class sidebar*/
@@ -88,20 +89,20 @@ main{
 }
 /*/c92 #c92-box-stats*/
 
-/*
-@media screen and (max-width: 768px){
+/**/
+@media screen and (min-width: 768px){
     #c92-sidebar {
-        width: 90px;
+        width: 140px;
     }
     #c92-sidebar span{
         display: none;
     }
-    #c92-sidebar .row >*{
-        padding-left: 0px !important;
-    }
     #c92-main-content{
-        width: calc(100% - 90px);
+        width: calc(100% - 140px);
+    }
+    .c92-offcanvas{
+        width: 50% !important;
     }
 }
 
-*/
+
