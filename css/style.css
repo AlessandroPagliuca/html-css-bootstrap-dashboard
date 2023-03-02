@@ -72,8 +72,15 @@ main{
 #c92-call-to-action{
     background-color: #1b72e8;
 }
+.c92-badge:hover{
+    background-color: var(--c92-bg-sidebar) !important;
+}
 .c92-btn-call-to-action{
     background-color: var(--c92-bg-btn-call-to-action);
+}
+.c92-btn-off-canvas:hover{
+    color: var(--c92-bg-sidebar) !important;
+    background-color: var(--c92-bg-header) !important;
 }
 /*/c92 #call-to-action*/
 
@@ -89,7 +96,7 @@ main{
 }
 /*/c92 #c92-box-stats*/
 
-/**/
+/*c92-@media*/
 @media screen and (min-width: 768px){
     #c92-sidebar {
         width: 140px;
