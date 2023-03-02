@@ -27,8 +27,7 @@
                         </a>   
                     </div>
                     <div class="col">
-                        <input class="form-control bg-secondary-subtle" id="exampleDataList" placeholder="&#xf002; Prova a cercare: Lezioni di Laravel" style="font-family:Arial, FontAwesome">
-                        
+                        <input class="form-control bg-secondary-subtle" id="exampleDataList" placeholder="&#128269; Prova a cercare: Lezioni di Laravel" style="font-family: Arial, FontAwesome">
                     </div>
                     <div class="col-auto">
                         <ul class="nav d-flex justify-content-end">
@@ -69,7 +68,7 @@
         <main class="d-flex">
             <!--Start #c92-sidebar-->
             <nav id="c92-sidebar" class="d-flex flex-column justify-content-between">
-                <section id="c92-nav-top" class="px-4 py-2">
+                <div id="c92-nav-top" class="px-4 py-2">
                     <div class="row">
                         <div class="col-12 c92-nav">
                             <div class="py-2">
@@ -96,9 +95,9 @@
                             </div>   
                         </div>
                     </div>
-                </section>
+                </div>
                 
-                <section id="c92-nav-bot" class="px-4 py-2">
+                <div id="c92-nav-bot" class="px-4 py-2">
                     <div class="row">
                         <div class="col-12 c92-nav">
                             <div class="py-2">
@@ -109,19 +108,19 @@
                             </div>   
                         </div>
                     </div>
-                </section>     
+                </div>     
             </nav>
             <!--/#sidebar-->
 
             <!--Start #c92-main-content-->
-            <section id="c92-main-content">
+            <div id="c92-main-content">
                 <!--Start #c92-call-to-action-->
-                <section id="c92-call-to-action" class="d-flex flex-column flex-sm-row justify-content-sm-between">
+                <div id="c92-call-to-action" class="d-flex flex-column flex-sm-row justify-content-sm-between">
                     <!--Start row left-->
                     <div class="row order-2 order-sm-1">
                         <div class="col">
                             <div class="px-2 pt-3">
-                                <h1 class="text-white d-inline-block">Boolean</h1>
+                                <p class="text-white fs-1 fw-semibold d-inline-block">Boolean</p>
                                 <a href="#">
                                     <span class="badge rounded-pill c92-btn-call-to-action text-white fw-semibold c92-badge">Piano blaze</span>
                                 </a>
@@ -188,39 +187,39 @@
                                     <div class="offcanvas-body fw-semibold">
                                         <form class="row g-3">
                                             <div class="col-12 col-md-6">
-                                                <label class="form-label" for="autoSizingInputGroup">Nome</label>
-                                                <input type="text" class="form-control" aria-label="First name">
+                                                <label for="input-first-name" class="form-label">Nome</label>
+                                                <input type="text" class="form-control" aria-label="First name" id="input-first-name">
                                             </div>
 
                                             <div class="col-12 col-md-6">
-                                                <label class="form-label" for="autoSizingInputGroup">Cognome</label>
-                                                <input type="text" class="form-control" aria-label="Last name">
+                                                <label for="input-last-name" class="form-label">Cognome</label>
+                                                <input type="text" class="form-control" aria-label="Last name" id="input-last-name">
                                             </div>
 
                                             <div class="col-12 col-md-6">
-                                                <label class="form-label" for="autoSizingInputGroup">Email</label>
+                                                <label for="input-email" class="form-label">Email</label>
                                                 <div class="input-group">
                                                   <div class="input-group-text fw-semibold">@</div>
-                                                  <input type="text" class="form-control" id="autoSizingInputGroup">
+                                                  <input type="text" class="form-control" id="input-email">
                                                 </div>
                                             </div>
 
                                             <div class="col-12 col-md-6">
-                                                <label for="inputPassword4" class="form-label">Password</label>
-                                                <input type="password" class="form-control" id="inputPassword4">
+                                                <label for="inputPassword1" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="inputPassword1">
                                             </div>
 
                                             <div class="col-12 col-md-6">
-                                                <label class="form-label text-capitalize" for="autoSizingInputGroup">Conferma email</label>
+                                                <label for="input-check-email" class="form-label text-capitalize">Conferma email</label>
                                                 <div class="input-group">
                                                   <div class="input-group-text fw-semibold">@</div>
-                                                  <input type="text" class="form-control" id="autoSizingInputGroup">
+                                                  <input type="text" class="form-control" id="input-check-email">
                                                 </div>
                                             </div>
 
                                             <div class="col-12 col-md-6">
-                                                <label for="inputPassword4" class="form-label text-capitalize">Conferma password</label>
-                                                <input type="password" class="form-control" id="inputPassword4">
+                                                <label for="inputPassword2" class="form-label text-capitalize">Conferma password</label>
+                                                <input type="password" class="form-control" id="inputPassword2">
                                             </div>
 
                                             <div class="col-12">
@@ -257,7 +256,7 @@
                                             <div class="col-12">
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="checkbox" id="gridCheck">
-                                                    <label class="form-check-label" for="gridCheck">
+                                                    <label for="gridCheck" class="form-check-label">
                                                     Seleziona per proseguire
                                                     </label>
                                                 </div>
@@ -277,11 +276,11 @@
                         </div>
                     </div>
                     <!--/row right-->
-                </section>
+                </div>
                 <!--/#c92-call-to-action-->
 
                 <!--Start #c92-box-stats-->
-                <section id="c92-box-stats">
+                <div id="c92-box-stats">
                     <div class="row">
                         <!--Start col left-->
                         <div class="col-12 col-lg-8">
@@ -291,16 +290,18 @@
                                     Prossime classi
                                 </h2>
                                 <table class="table table-hover fw-semibold">
+                                    <thead>
+                                        <tr>
+                                            <th>Nome</th>
+                                            <th class="d-none d-xl-table-cell">Data Inizio</th>
+                                            <th class="text-uppercase d-none d-md-table-cell">Roi</th>
+                                            <th>Stato</th>
+                                            <th>Azioni</th>
+                                        </tr>
+                                    </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Nome</td>
-                                            <td class="d-none d-xl-table-cell">Data Inizio</th>
-                                            <td class="text-uppercase d-none d-md-table-cell">Roi</th>
-                                            <td>Stato</th>
-                                            <td>Azioni</th>
-                                        </tr>
-                                        <tr>
-                                            <td scope="row" class="c92-td-w">
+                                            <td class="c92-td-w">
                                                 <img src="./img/class-avatar.jpg" alt="">
                                                 <span>Classe 75</span>
                                             </td>
@@ -315,7 +316,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td scope="row" class="c92-td-w">
+                                            <td class="c92-td-w">
                                                 <img src="./img/class-avatar.jpg" alt="">
                                                 <span>Classe 76</span>
                                             </td>
@@ -330,7 +331,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td scope="row" class="c92-td-w">
+                                            <td class="c92-td-w">
                                                 <img src="./img/class-avatar.jpg" alt="">
                                                 <span>Classe 77</span>
                                             </td>
@@ -345,7 +346,7 @@
                                             </td>
                                           </tr>
                                           <tr>
-                                            <td scope="row" class="c92-td-w">
+                                            <td class="c92-td-w">
                                                 <img src="./img/class-avatar.jpg" alt="">
                                                 <span>Classe 78</span>
                                             </td>
@@ -360,7 +361,7 @@
                                             </td>
                                           </tr>
                                           <tr>
-                                            <td scope="row" class="c92-td-w">
+                                            <td class="c92-td-w">
                                                 <img src="./img/class-avatar.jpg" alt="">
                                                 <span>Classe 79</span>
                                             </td>
@@ -375,7 +376,7 @@
                                             </td>
                                           </tr>
                                           <tr>
-                                            <td scope="row" class="c92-td-w">
+                                            <td class="c92-td-w">
                                                 <img src="./img/class-avatar.jpg" alt="">
                                                 <span>Classe 80</span>
                                             </td>
@@ -390,7 +391,7 @@
                                             </td>
                                           </tr>
                                           <tr>
-                                            <td scope="row" class="c92-td-w">
+                                            <td class="c92-td-w">
                                                 <img src="./img/class-avatar.jpg" alt="">
                                                 <span>Classe 81</span>
                                             </td>
@@ -405,7 +406,7 @@
                                             </td>
                                           </tr>
                                           <tr>
-                                            <td scope="row" class="c92-td-w">
+                                            <td class="c92-td-w">
                                                 <img src="./img/class-avatar.jpg" alt="">
                                                 <span>Classe 82</span>
                                             </td>
@@ -491,8 +492,8 @@
                                         </label>
                                     </div>
                                     <div class="form-check">
-                                        <input class="form-check-input m-1" type="checkbox" id="flexCheckChecked">
-                                        <label class="form-check-label fw-semibold" for="flexCheckChecked">
+                                        <input class="form-check-input m-1" type="checkbox" id="flexCheck">
+                                        <label class="form-check-label fw-semibold" for="flexCheck">
                                           Controllare username github studenti
                                         </label>
                                     </div>
@@ -522,9 +523,9 @@
                         </div>
                         <!--/col right-->
                     </div>
-                </section>
+                </div>
                 <!--/#c92-box-stats-->
-            </section>
+            </div>
             <!--/#c92-main-content-->
         </main>
     </div>
